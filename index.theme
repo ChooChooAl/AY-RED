@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=AY-RED
+Comment=A flat theme with transparent elements and dark menu customized from Mint 20
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=AY-RED
+MetacityTheme=AY-RED
+IconTheme=AKiconsB
+CursorTheme=AKcursors.blk
+ButtonLayout=menu:minimize,maximize,close
