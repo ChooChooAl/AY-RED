@@ -2817,7 +2817,7 @@ row:selected button:disabled, infobar.info button:disabled, infobar.question but
 
 tooltip,
 .tooltip {
-  color: #4a4a4a;
+  color: #1A1A1A;
   border-radius: 2px;
   border: 1px solid #d0d0d0; }
   tooltip.background,
