@@ -16,7 +16,7 @@
 
 .background { /* shows up in status bar in pluma and dropdowns etc.  Watchout!  This is global */
   color: #000000;      /* text color everywhere, words in 'find' in pluma, */
-  background-color: @gray_bg; }
+  background-color: #CCCCCC; }
 
 *:disabled {
   -gtk-icon-effect: dim; }
@@ -42,7 +42,7 @@
 iconview text,
 textview text {
   color: #000000;                       /* the text color in Tetravex high scores.   Need more contrast */
-  background-color: @gray_bg; }           /* this is the list of saved colors in gcolor3 */
+  background-color: #F2F2F2; }           /* this is the list of saved colors in gcolor3   also url in firefox */
 
   .view:selected, iconview:selected, .view:selected:focus, iconview:selected:focus,
   .view text:selected,
@@ -816,7 +816,7 @@ toolbar, .inline-toolbar {
   border-image: linear-gradient(to bottom, #2f2f2f, #101010) 1 0 1 0; }
 
 .inline-toolbar {
-  background-color: @gray_bg;   /* this changes the bottom of theme settings ... NONO */
+  background-color: @gray_bg;   /* this changes the bottom of theme settings, + - reload etc icons bar */
   border-style: solid;
   border-color: #BDBDBD;
   border-width: 0 1px 1px;
@@ -3159,6 +3159,7 @@ PantheonTerminalPantheonTerminalWindow .notebook.header.top {
 GtkHTML {
   background-color: @gray_bg;
   color: @theme_fg_color; }
+
   GtkHTML:active {
     color: #FFFFFF;
     background-color: @theme_selected_bg_color; }
@@ -4121,7 +4122,7 @@ window.background.lightdm .lightdm-combo {
   background-color: transparent; }
 
 @define-color nemo_bg #404040;
-@define-color gray_bg #DDDDDD;
+@define-color gray_bg #E3E3E3;
 @define-color yellow_text #FFFF00;
 @define-color white_text #FFFFFF;
 @define-color theme_bg_color #F0F0F0;  /* this is not used but without it, gnome-mines looks wierd */
